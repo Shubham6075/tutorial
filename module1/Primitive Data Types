@@ -1,0 +1,17 @@
+1 byte = 8 bits
+Boolean data type : (true or false) 1 bit
+Character data type : (symbol,single  value,single character) 2 byte
+Integer data types : (all integers value)   1) byte = 1byte  2) short = 2byte  3) int = 4byte  4) long = 8byte
+Floating data types : (all float value , all double value)  1) float = 4byte  2) double = 8byte
+
+Range of Values :
+Q1) What is the range of values for int data type variables?
+    The int type variables can store values ranging from -2147483648 to 2147483647.
+    So it can hold upto 10 digits. If your number is very large then use long data type.
+    int takes memory of 4 bytes.
+
+Q2) What is the range of values for long data type variables?
+    The long type variables can store values ranging from -9223372036854775808 to 9223372036854775807.
+    It can hold upto 19 digits. long takes memory of 8 bytes.
+    To declare a long data type value we use Capital letter 'L' at the end, can we use small letter 'l' instead?
+    Well, yes you can. But as per convention you should not. So use capital letter 'L' instead of small 'l'.
